@@ -2,13 +2,6 @@
 
 function catCarousel () {
 
-  /*
-    REQUIREMENTS
-    1. User selects thumbnail with mouse or keyboard, selected img should
-    replace hero img
-    2. Hero image alt text should be updated as well
-  */
-
   $('.thumbnails').on('click', 'a', event => {
 
     // save target and others
